@@ -66,10 +66,6 @@ body {
 .block-end-of-page {
   background-color: linear-gradient(to bottom, grey, black);
 }
-.block-end-of-page img {
-  width: flex;
-  height: flex;
-}
 .block-end-of-page a {
   width: flex;
   height: flex;
