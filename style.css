@@ -1,4 +1,4 @@
-html {
+body {
   background: linear-gradient(to top, rgb(8, 0, 31), rgb(52, 0, 120));
 }
 .block-title {
@@ -9,9 +9,6 @@ html {
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.block-title text:hover{
-  transform: scale(1.5);
-}
 @font-face {
   font-family: "Comfortaa";
   src: url("fonts/Comfortaa-VariableFont_wght.ttf") format("truetype");
@@ -21,7 +18,7 @@ html {
 .block-description {
   color : white;
   text-align: center;
-  font-size: 35px, flex;
+  font-size: 50px;
   width: flex;
   height: flex;
   font-family: 'Comfortaa'
@@ -34,7 +31,7 @@ html {
 		linear-gradient(rgba(17, 17, 17, 0.7), rgba(0, 0, 0, 0.8)), 
 		url(https://s1.1zoom.me/big0/4/Planets_Nebulae_in_space_518424_1280x480.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 	background-position: top;    
 }
@@ -48,21 +45,36 @@ html {
 }
  
 .block-social-icons img  {
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   transition: transform 0.3s;
 }
 .block-social-icons svg {
-    width: 64px;
-  height: 64px;
+    width: 128px;
+  height: 128px;
   transition: transform 0.3s;
 }
 .youtube img {
-  width: 88px  
+  width: 180px  
 }
 .block-social-icons a:hover img {
   transform: scale(1.2);
 }
 .block-social-icons a:hover svg {
   transform: scale(1.2);
+}
+.block-end-of-page {
+  background-color: linear-gradient(to bottom, grey, black);
+}
+.block-end-of-page img {
+  width: flex;
+  height: flex;
+}
+.block-end-of-page a {
+  width: flex;
+  height: flex;
+}
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
 }
