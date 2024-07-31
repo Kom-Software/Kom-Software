@@ -66,10 +66,6 @@ body {
 .block-end-of-page {
   background-color: linear-gradient(to bottom, grey, black);
 }
-.block-end-of-page a {
-  width: flex;
-  height: flex;
-}
 hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
