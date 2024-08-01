@@ -63,6 +63,25 @@ body {
 .block-social-icons a:hover svg {
   transform: scale(1.2);
 }
+.game canvas {
+  background: linear-gradient(rgb(10, 10, 10), black);
+  display: block;
+  margin: 0 auto;
+}
+.game button {
+  display: block;
+  background: linear-gradient(rgb(10, 10, 10), black);
+  color: #fff;
+  font-family: 'Comfortaa';
+  font-size: xx-large;
+  width: 250px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.game button:hover {
+  background: linear-gradient(rgb(40, 40, 40), black);
+}
 .block-paragraph {
   color : white;
   text-align: center;
