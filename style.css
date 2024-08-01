@@ -63,10 +63,18 @@ body {
 .block-social-icons a:hover svg {
   transform: scale(1.2);
 }
+.block-paragraph {
+  color : white;
+  text-align: center;
+  font-size: 13px;
+  width: flex;
+  height: flex;
+  font-family: 'Comfortaa'
+}
 .block-end-of-page {
   background-color: linear-gradient(to bottom, grey, black);
 }
 hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 8px solid #fff;
   border-radius: 5px;
 }
